@@ -1,0 +1,1 @@
+export type ValueProvider<T> = { useValue: T };
