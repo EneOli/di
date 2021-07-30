@@ -2,7 +2,8 @@
   "compilerOptions": {
     "target": "esnext",
     "lib": [
-      "es2018"
+      "es2018",
+      "dom",
     ],
     "strict": true,
     "sourceMap": false,
@@ -16,10 +17,6 @@
     "noEmit": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "baseUrl": ".",
-    "types": [
-      "./@types/index"
-    ]
   },
   "include": [
     "./**/*"
